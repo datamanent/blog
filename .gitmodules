@@ -1,3 +1,7 @@
 [submodule "datamanent/themes/academic"]
 	path = datamanent/themes/academic
 	url = https://github.com/wowchemy/starter-academic.git
+[submodule "public"]
+	path = public
+	url = https://github.com/DataManent/datamanent.github.io.git
+	branch = main
