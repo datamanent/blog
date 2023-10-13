@@ -4,21 +4,30 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Tour
+  - name: Introduzione
     url: tour
     weight: 10
-  - name: News
-    url: post
+  - name: Social Media
+    url: social-media
     weight: 20
-  - name: People
-    url: people
+  - name: Sistemi Operativi
+    url: sistemi-operativi
     weight: 30
-  - name: Events
-    url: event
+  - name: Software
+    url: software
     weight: 40
-  - name: Publications
-    url: publication
+  - name: Web Browsers
+    url: web-browsers
     weight: 50
-  - name: Contact
-    url: contact
+  - name: Dispositivi Indossabili
+    url: wearables
     weight: 60
+  - name: Formazione
+    url: formazione
+    weight: 80
+  - name: Media
+    url: media
+    weight: 90
+  - name: Contatti
+    url: contatti
+    weight: 100
