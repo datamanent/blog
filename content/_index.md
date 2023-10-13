@@ -29,7 +29,7 @@ sections:
       # Minimum and maximum font sizes (1.0 = 100%).
       font_size_min: 0.7
       font_size_max: 2.0
-      columns: '2'
+      columns: '1'
 
 
   - block: collection
@@ -68,7 +68,7 @@ sections:
       # Choose a listing view
       view: compact
       # Choose single or dual column layout
-      columns: '2'
+      columns: '1'
 
 #  - block: markdown
 #    content:
