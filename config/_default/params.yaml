@@ -6,10 +6,10 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night:
-  font: native
-  font_size: L
+  theme_day: cyberpunk
+  theme_night: cyberpunk
+  font: mr robot
+  font_size: M
 
 # SEO
 
@@ -47,9 +47,9 @@ footer:
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization
