@@ -5,31 +5,51 @@ date: 2022-10-24
 type: landing
 
 sections:
+
+  - block: slider
+    content:
+      slides:
+      - title: Data Manent 
+        content: Understanding digital world
+        #content: Siamo una piattaforma senza scopo di lucro per essere consapevoli delle pratiche commerciali e dei rischi del web e dei dispositivi tecnologici.
+        align: center
+        background:
+          image:
+            filename: vr_1610.jpg
+            filters:
+              brightness: 0.7
+          position: right
+          color: '#666'
+
+    design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      is_fullscreen: true
+      # Automatically transition through slides?
+      loop: false
+      # Duration of transition between slides (in ms)
+      interval: 2000
+
+
   - block: hero
     content:
       title: |
-        Data Manent
-      image:
-        filename: vr.jpg
+        Manifesto
       text: |
-        <br>
-        
-        **Data Manent** è una piattaforma senza scopo di lucro per essere consapevoli delle pratiche commerciali e dei rischi del web e dei dispositivi tecnologici.
-  
-  - block: tag_cloud
-    content:
-      title: Argomenti Popolari
-      subtitle: 
-      text: 
+        Data Manent è una piattaforma senza scopo di lucro dedicata a promuovere la consapevolezza sulle pratiche commerciali e i rischi legati al web e ai dispositivi tecnologici. Offriamo guide informative e risorse pratiche per aiutarti a comprendere e affrontare le sfide digitali. La nostra missione è educativa e orientata a fornire agli utenti strumenti per prendere decisioni consapevoli, contribuendo così a una società digitale più sicura e informata.
+  #- block: tag_cloud
+  #  content:
+  #    title: Argomenti Popolari
+  #    subtitle: 
+  #    text: 
       # Choose a taxonomy from the `taxonomies` list in `config.yaml` to display (e.g. tags, categories, authors)
-      taxonomy: tags
+  #    taxonomy: tags
       # Choose how many tags you would like to display (0 = all tags)
-      count: 20
-    design:
+  #    count: 20
+  #  design:
       # Minimum and maximum font sizes (1.0 = 100%).
-      font_size_min: 0.7
-      font_size_max: 2.0
-      columns: '1'
+  #    font_size_min: 0.7
+  #    font_size_max: 2.0
+  #    columns: '1'
 
 
   - block: collection
@@ -66,9 +86,9 @@ sections:
       sort_ascending: false
     design:
       # Choose a listing view
-      view: compact
+      view: card
       # Choose single or dual column layout
-      columns: '1'
+
 
 #  - block: markdown
 #    content:

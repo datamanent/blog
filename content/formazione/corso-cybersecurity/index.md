@@ -1,7 +1,7 @@
 ---
 title: 'Risorse gratuite per la cyber sicurezza'
 authors:
-  - Robert Ford
+  - Redazione
 author_notes:
   - 'Equal contribution'
 date: '2023-10-13T00:00:00Z'

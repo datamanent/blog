@@ -8,7 +8,6 @@ local_backend: true
 backend:
   name: git-gateway
 
-
 title: Data Manent # Website name
 baseURL: 'https://datamanent.github.io/' # Website URL
 

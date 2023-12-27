@@ -1,0 +1,144 @@
+
+.navbar {
+    box-shadow: 1px -37px 68px -3px rgba(0,0,0,0.75) !important;
+    -webkit-box-shadow: 1px -37px 68px -3px rgba(0,0,0,0.75) !important;
+    -moz-box-shadow: 1px -37px 68px -3px rgba(0,0,0,0.75) !important;
+}
+
+/*.navbar {
+    background-image: url('/vr.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+
+
+@font-face {
+    font-family: 'salmapro';
+    font-weight: 400;
+    font-style: normal;
+    src: url('/fonts/SalmaPro-MediumNarrow.woff2') format('woff2');
+  } 
+
+.navbar {
+    font-family: 'salmapro' !important;
+    font-size: 1.3em !important;
+}
+
+
+.navbar-brand-mobile-wrapper {
+    display: none !important;
+    font-family: 'salmapro' !important;
+    font-size: 1.15em !important;   
+}
+
+.hero-title {
+    font-family: 'salmapro' !important;
+    font-size: 4em;
+}
+
+
+
+
+body#top.page-wrapper.dark div.page-body section#section-hero.home-section.wg-hero div.container h1.hero-title{
+    font-size: 4em !important
+}
+
+h1 {
+    font-family: 'salmapro' !important;
+    font-size: 4em;
+}
+
+h1 {
+    color: #161c72 !important;
+}
+.dark h1 {
+    color: white !important;
+}
+
+.carousel-control-next, .carousel-control-prev, .carousel-indicators {
+    display: none !important;
+}
+
+body#top.page-wrapper.dark div.page-body section#posts.home-section.wg-collection div.container div.row.justify-content-center div.col-12 div.media.stream-item.view-compact div.media-body div.stream-meta.article-metadata div.article-metadata div {
+    display: none !important;
+}
+
+.btn-links {
+    display: none !important;
+}
+
+body#top.page-wrapper.dark div.page-footer div.container footer.site-footer p.powered-by {
+    padding-bottom: 8px !important;
+}
+
+.hero-title {
+    text-align: left !important;
+}
+
+.hero-lead {
+    text-align: left !important;
+  }
+
+
+.carousel-inner .hero-title {
+    text-align: center !important;
+}
+
+.carousel-inner .hero-lead {
+    width: 100% !important;
+    margin: 0 auto;
+    text-align: center !important;
+  }
+
+body#top.page-wrapper.dark div.page-body section#section-hero.home-section.wg-hero div.container div.hero-lead {
+    text-align: justify !important;
+}
+
+.section-subheading, .article-title {
+    font-family: 'salmapro' !important;
+    font-size: 1.3em !important;
+}
+
+.btn.btn-primary.btn-lg {
+    color: white !important;
+}
+
+.dark .mt-1  {
+    color: white !important;
+}
+
+.btn-toolbar .btn:last-child {
+    border-radius: 0 2px 2px 0;
+  }
+
+.btn-toolbar .btn:first-child {
+    border-radius: 0 2px 2px 0;
+}
+
+.btn.btn-primary.btn-lg {
+    background:#4b2aaf !important;
+}
+
+.btn.btn-primary.btn-lg:hover {
+    background: #6b33b6 !important;
+}
+
+  .btn.btn-primary.btn-lg.active {
+    background: #7f2cd4 !important;
+  }
+
+  .universal-wrapper h1 {
+    text-align: left !important;
+  }
+
+
+  /* Color themes */
+  .hero-title {
+    color: #161c72 !important;
+}
+
+.dark .hero-title {
+    color: #fafafa !important;
+    font-size: 7em;
+}

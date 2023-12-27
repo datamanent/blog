@@ -2,7 +2,7 @@
 title: 'An example journal article'
 authors:
   - admin
-  - Robert Ford
+  - Redazione
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
